@@ -1,0 +1,9 @@
+{
+  "PORT": "9004",
+  "BASE_URL": "/api/v1",
+  "MONGO_SERVER": "localhost:27017",
+  "MONGO_DATABASE": "cbPeople",
+  "AWAKE_JWT_SIGNATURE": "4ce08fbe14554c15d252f08f31bf2a58",
+  "SHOPTYPE_JWT_SIGNATURE": "4ce08fbe14554c15d252f08f31bf2a57",
+  "SECRET_KEY": "quiteS3cr3t"
+}

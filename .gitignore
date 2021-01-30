@@ -1,0 +1,10 @@
+.idea/
+*.iml
+vendor/
+bin/
+test
+runlocal.sh
+temp.go
+dev_local.json
+log
+main/main

@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./.mongodb-data:/data/db
+
+#    docker-compose run neo4j /bin/bash
+#  /var/lib/neo4j/bin/neo4j-admin load --from=/a.dump --database=graph.db --force
